@@ -1,0 +1,140 @@
+.nav-bars-div{
+  display:flex;
+  gap:30px;;
+  justify-content:center;
+  background-color:rgb(72, 72, 185);
+  color:rgb(178, 31, 31);
+  font-family: Arial, Helvetica, sans-serif;
+  padding:20px;
+}
+.welcome{
+  text-align: center;
+  font-family:arial;
+  color:rgb(74, 134, 74);
+}
+.link{
+  color:rgb(199, 192, 192);
+  text-decoration: none;
+}
+
+.newPatient-div{
+  display:flex;
+  flex-direction: column;
+  gap:10px;
+  justify-content:Center;
+  align-items: center;
+  margin-top:20px;
+}
+.newPatient-div div{
+  display: flex;
+  justify-content: space-between;
+  /* gap:10px; */
+  align-items:self-start;
+  border:1px solid gray;
+  padding:10px 20px;
+  width:370px;
+}
+.newPatient-div button{
+  padding:10px 15px;
+  font-sizE:1em;
+  background-color:rgb(203, 77, 77);
+  color:white;
+  border:none;
+  border-radius: 5px;;
+}
+.newPatient-div div input{
+  width:300px;
+  height: 30px;
+  font-sizE:1em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.newPatient-div div input:focus{
+  border:none;
+}
+
+.find-div{
+  text-align:Center;
+  /* display: flex; */
+  margin-top:10px;
+  
+}
+.find-div .input-find{
+  display: flex;
+  align-items: stretch;
+  
+  justify-content:center;
+}
+.find-div input{
+  font-size:1.1em;
+}
+.find-div button{
+  border:none;
+  border-radius: 5px;
+  padding:10px 15px;
+  font-size:1em;
+}
+
+.patient{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  align-items: center;
+}
+.patient div{
+  display: flex;
+  gap:10px;
+  align-items: center;
+  justify-content: center;
+  border:1px solid gray;
+  width:350px;
+}
+
+.examination{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  justify-content: center;
+  align-items: center;
+  /* width:200px; */
+  
+}
+.examination div{
+  /* display: flex; */
+  align-items: stretch;
+  padding:10px 30px;
+  
+}
+.examination input{
+  height:30px;
+}
+.examination-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:10px;
+  margin-top:30px;
+
+}
+.examination-div div{
+  display: flex;
+  gap:10px;
+  align-items: stretch;
+  justify-content: space-between;
+  border:1px solid gray;
+  width:350px;
+  padding:10px 40px;
+}
+
+.login-div{
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+  align-items: center;
+  justify-content: center;
+}
+/* .nav-bars-div Link:hover{
+  cursor: pointer;
+  font-size:1.05em;
+  color:rgb(254, 250, 250);
+} */
